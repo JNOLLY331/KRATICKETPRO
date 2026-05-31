@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /tickets/
+Disallow: /login/
+Disallow: /register/
+
+Sitemap: https://helpdesk.kra.go.ke/sitemap.xml

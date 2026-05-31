@@ -1,0 +1,12 @@
+django>=5.0
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+django-filter
+psycopg2-binary
+pillow
+python-dotenv
+channels
+channels-redis
+gunicorn
+whitenoise
