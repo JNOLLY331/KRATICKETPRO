@@ -68,14 +68,14 @@ const Register = () => {
                 transition={{ duration: 0.6 }}
                 className="w-full max-w-2xl relative z-10"
             >
-                <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 p-8 md:p-12">
+                <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 p-6 sm:p-10 md:p-12 w-full overflow-hidden">
                     <motion.div
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-center mb-10"
+                        className="text-center mb-8 md:mb-10"
                     >
-                        <h1 className="text-3xl font-black text-slate-900 mb-2 font-oswald uppercase tracking-tight">Create Account</h1>
-                        <p className="text-slate-500 font-medium">Join the KRA ICT Support network</p>
+                        <h1 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2 font-oswald uppercase tracking-tight">Create Account</h1>
+                        <p className="text-slate-500 text-sm sm:text-base font-medium">Join the KRA ICT Support network</p>
                     </motion.div>
 
                     {/* Progress Bar */}

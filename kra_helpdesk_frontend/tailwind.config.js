@@ -3,11 +3,14 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      screens: {
+        xs: '480px',
+      },
       colors: {
         primary: {
-          DEFAULT: '#C8102E',
-          dark: '#A50D26',
-          light: '#F8D7DB',
+          DEFAULT: '#FF0000',
+          dark: '#CC0000',
+          light: '#FFE5E5',
         },
       },
       fontFamily: {

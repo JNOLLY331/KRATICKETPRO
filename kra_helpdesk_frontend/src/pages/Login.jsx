@@ -54,17 +54,17 @@ const Login = () => {
                 transition={{ duration: 0.5, ease: "easeOut" }}
                 className="w-full max-w-md relative z-10"
             >
-                <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 p-8 md:p-10">
-                    <div className="text-center mb-10">
+                <div className="bg-white rounded-2xl shadow-2xl border border-slate-100 p-6 sm:p-10 w-full overflow-hidden">
+                    <div className="text-center mb-8 md:mb-10">
                         <motion.h1
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
-                            className="text-3xl font-black text-slate-900 mb-2 font-oswald uppercase tracking-tight"
+                            className="text-2xl sm:text-3xl font-black text-slate-900 mb-2 font-oswald uppercase tracking-tight"
                         >
                             Institutional Access
                         </motion.h1>
-                        <p className="text-slate-500 font-medium">Log in using your KRA Staff Number</p>
+                        <p className="text-slate-500 text-sm sm:text-base font-medium">Log in using your KRA Staff Number</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-6">
