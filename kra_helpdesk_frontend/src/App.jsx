@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 // Pages
 import LandingPage from './pages/LandingPage';
+import About from './pages/About';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
@@ -139,6 +140,7 @@ function App() {
         <Routes>
           {/* Public */}
           <Route path="/" element={<PageLayout><LandingPage /></PageLayout>} />
+          <Route path="/about" element={<PageLayout><About /></PageLayout>} />
           <Route path="/login" element={<PublicRoute><PageLayout><Login /></PageLayout></PublicRoute>} />
           <Route path="/register" element={<PublicRoute><PageLayout><Register /></PageLayout></PublicRoute>} />
 
