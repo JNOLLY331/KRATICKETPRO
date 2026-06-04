@@ -43,7 +43,7 @@ const Navbar = () => {
             icon: <FaHome />,
             dropdown: [
                 { name: 'Welcome', path: '/', desc: 'Return to landing page' },
-                { name: 'About Helpdesk', path: '/#about', desc: 'System information' }
+                { name: 'About', path: '/about', desc: 'Learn about KRA HelpDesk' }
             ]
         },
         {
